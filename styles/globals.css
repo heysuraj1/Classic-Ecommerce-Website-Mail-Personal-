@@ -1,0 +1,59 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.active{
+  color: #F0D43A;
+}
+
+
+.yen{
+  cursor: pointer;
+}
+.zel{
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: black;
+}
+.sub{
+  font-weight: bolder;
+}
+
+
+.aado{
+  background-color: #F6F6F6;
+  border-radius: 50px;
+  
+}
+.net{
+  border-color: #F0D43A;
+}
+
+
+
+
+
+
+/* own  */
+
+.bhu{
+  font-weight: bolder;
+}
+.lom{
+  border-color: black;
+}
+.vei{
+  color: white;
+}

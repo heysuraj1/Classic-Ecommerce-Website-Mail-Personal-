@@ -1,0 +1,5 @@
+MONGO_URI = 'mongodb+srv://mySecondDatabase:cKhAaRV9WPRuHsKR@cluster0.d7at8.mongodb.net/storedb?retryWrites=true&w=majority'
+CLOUDINARY_URL = 'https://cloudinary.com/v1_1/learnerboy'
+JWT_SECRET = 'qwuegrwqgrhwqgrhqwjrhquguwqgr3rjhqwghrjgwqhjrgwjh'
+STRIPE_SECRET = 'sk_test_51K5DxkSBkgrOeNWxKaFzGR4IQa2n1VxQyhGl6OV1qjrhMHkexmMvYvLcklY7DsALEQ1UyWREdao1cWGOJ16t2qYp00nxozwrzM'
+CI = false
