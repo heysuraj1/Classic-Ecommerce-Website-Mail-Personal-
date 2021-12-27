@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import baseUrl from '../helpers/baseUrl'
 
 const Products = ({product},props) => {
     return (
@@ -15,7 +15,7 @@ const Products = ({product},props) => {
           product.slice(0, 8).map((hit)=>{
             return <div className="col-sm-6 col-xl-3" key={hit._id}>
             <div className="box">
-              <Link href={`http://192.168.43.53:3000/product/${hit._id}`}>
+              <Link href={`${baseUrl}/product/${hit._id}`}>
               <a >
                 <div className="img-box">
                   <img src={hit.mediaUrl}  />
