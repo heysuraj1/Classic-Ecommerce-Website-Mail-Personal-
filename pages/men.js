@@ -69,17 +69,7 @@ const Product = ({products},props) => {
 export default Product;
 
 
-export async function getServerSideProps(){
-    const res = await fetch(`${baseUrl}/api/collections/men`)
-    const data = await res.json()
-    return {
-      props:{
-        products:data
-      }
-    }
-  }
-  
-// export async function getStaticProps(){
+// export async function getServerSideProps(){
 //     const res = await fetch(`${baseUrl}/api/collections/men`)
 //     const data = await res.json()
 //     return {
@@ -88,4 +78,14 @@ export async function getServerSideProps(){
 //       }
 //     }
 //   }
+  
+export async function getStaticProps(){
+    const res = await fetch(`${baseUrl}/api/collections/men`)
+    const data = await res.json()
+    return {
+      props:{
+        products:data
+      }
+    }
+  }
   
