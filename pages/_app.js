@@ -1,3 +1,6 @@
+
+
+
 import Link from 'next/link'
 import '../styles/globals.css'
 import Head from 'next/head'
@@ -5,6 +8,8 @@ import Script from 'next/script'
 import Layout from "../Components/Layout";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+import NextNProgress from 'nextjs-progressbar';
 
 function MyApp({ Component, pageProps }) {
 
@@ -33,6 +38,10 @@ function MyApp({ Component, pageProps }) {
 
 
   <Layout>
+  <NextNProgress
+  color="#FC4944"
+  height={5}
+  />
   <ToastContainer />
 
   <Component {...pageProps} />
